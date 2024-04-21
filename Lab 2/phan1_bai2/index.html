@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    >
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    >
+    <link rel="icon" type="image/png" href="img/mappa.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Mappa</title>
+  </head>
+  <body>
+    <nav class="navbar bg-dark navbar-expand-lg">
+      <div class="container-lg gap-5">
+        <a href="#" class="navbar-brand"
+          ><img src="./img/mappa.png" alt="" class="Logo" style="width: 6rem"
+        /></a>
+
+        <button class="navbar-toggler px-3 py-2 ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#searchbar"  style="background-color: white; color: black;">
+          <span class="bi bi-search" style="width: 16px; height: 16px; display: inline-block; fill: currentColor;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg>
+          </span>
+        </button>        
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" style="background-color: white; color: black;">
+          <span class="bi bi-list"></span>
+        </button>
+
+        <div class="collapse navbar-collapse gap-5" id="navmenu">
+          <ul class="navbar-nav ms-auto gap-3">
+            <li>
+              <a href="#contact" class="nav-link fw-bold">CATEGORY</a>
+            </li>
+            <li>
+              <a href="#follow" class="nav-link fw-bold">CONTACT US</a>
+            </li>
+            <li class="">
+              <a href="#login" class="nav-link fw-bold">FOLLOW US</a>
+            </li>
+          </ul>
+        </div>
+
+        <div
+          class="collapse navbar-collapse col-lg-1 position-relative"
+          id="searchbar"
+        >
+          <input
+            type="text"
+            class="form-control rounded-5 px-5 fst-italic"
+            placeholder="Searching..."
+          /><i
+            class="fa-sharp fa-solid fa-magnifying-glass position-absolute text-secondary"
+            style="margin-left: 20px"
+          ></i>
+        </div>
+      </div>
+    </nav>
+
+    <section class="mt-4">
+      <div class="container bg-body">
+        <div class="row">
+          <div class="col-lg-2 container">
+            <div class="fw-bold mb-2">CATEGORY</div>
+            <ul class="navbar-nav" id="category">
+              <li><a href="" class="nav-link">Shounen</a></li>
+              <li><a href="" class="nav-link">Shojo</a></li>
+              <li><a href="" class="nav-link">Seinen</a></li>
+              <li><a href="" class="nav-link">Josei</a></li>
+              <li><a href="" class="nav-link">Isekai</a></li>
+            </ul>
+            <div class="fw-bold mt-4 mb-2">TOP TRENDING</div>
+            <ul class="navbar-nav">
+              <li><a href="" class="nav-link">Jujutsu Kaisen</a></li>
+              <li><a href="" class="nav-link">Sakamoto Days</a></li>
+              <li><a href="" class="nav-link">Chainsaw Man</a></li>
+              <li><a href="" class="nav-link">My Happy Marriage</a></li>
+              <li><a href="" class="nav-link">Kimmetsu No Yaiba</a></li>
+              
+            </ul>
+          </div>
+
+          <div class="col-lg">
+            <div>
+              <a href="#" class="banner">Home</a>
+              >
+              <a href="#" class="banner"
+                >Figure</a
+              >
+              >
+              <a href="#" class="banner"
+                >Gojo Satoru</a
+              >
+            </div>
+            <div class="row mt-3">
+              <div class="col-lg">
+                <img src="./img/gojo.jfif" alt="" class="w-100" style="height: 480px;">
+                <div class="d-flex justify-content-between mt-2">
+                  <img src="./img/gojo2.jfif" alt="" style="width: 24%" class="" />
+                  <img src="./img/gojo3.jfif" alt="" style="width: 24%" />
+                  <img src="./img/gojo4.jfif" alt="" style="width: 24%" />
+                  <img src="./img/gojo5.jfif" alt="" style="width: 24%" />
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <h2 class="gojo fw-bold fs-3">Gojo Satoru Figure</h2>
+                <p class="fw-bold fs-3">Price: 100¥</p>
+                <p>           
+                    The theme of Jujutsu Kaisen revolves around "curses," 
+                    epicting the battles of a sorcerer using magic to eliminate monsters and cursed spirits born from the negative emotions created by humans.
+
+                    When hearing about curses and monsters, one might assume it's a horror story. 
+                    However, the truth is, when watching Jujutsu Kaisen, you can't go through an episode without occasionally bursting into 
+                    laughter. Jujutsu has everything you love in anime: camaraderie, resilient main characters, righteousness, noble purposes, 
+                    a diverse cast of characters, and humor.
+                </p>
+                <p class="fw-bold fs-5">Quantity:</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <input
+                    type="number"
+                    name="quantity"
+                    id="quantity"
+                    style="width: 60px; height: 35px"
+                    class="px-2"
+                  />
+                  <button
+                    class="bg-black text-white px-4 shadow-lg fw-bold"
+                    style="height: 35px"
+                  >
+                    ADD TO CART
+                  </button>
+                  <i class="fa-sharp fa-solid fa-pipe"></i>
+                </div>
+              </div>
+              <div class="mt-5">
+                <div>
+                  <div class="container mt-5">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <h2 class="mb-4">Product Description</h2>
+                        <p><strong>Product Name:</strong> Nendoroid Jujutsu Kaisen Gojo Anime Manga Combat Sorcerer Decor Desk Decoration
+                          MH68</p>
+                        <p><strong>Composition:</strong> PVC Plastic</p>
+                        <p class="mt-4"><strong>Usage:</strong></p>
+                        <ul>
+                          <li>Ideal for decorating desks, bedrooms, creating an inspiring study or work environment.</li>
+                          <li>Enhances the aesthetic appeal of your living space.</li>
+                          <li>Please note that the product descriptions and specifications are subject to slight variations due to manual
+                            craftsmanship.</li>
+                        </ul>
+                      </div>
+                
+                      <div class="col-md-6">
+                        <h2 class="mb-4">Technical Specifications</h2>
+                        <p><strong>Height:</strong> 10 cm. (Height may have a deviation of 1 - 2 cm due to manual processing, we
+                          appreciate your understanding.)</p>
+                        <p><strong>Material:</strong> Premium PVC</p>
+                        <p><strong>Box:</strong> Included</p>
+                        <p><strong>Set Includes:</strong> 1 figurine</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-2">
+            <img src="./img/jjk.jpg" alt="jjk" class="mb-4" style="width: 100%;">
+            <img src="./img/saka.jpg" class="mb-4" alt="saka" style="width: 100%">
+            <img src="./img/aot.jpg" class="mb-4" alt="aot" style="width: 100%">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="mt-4 bg-dark text-white p-4">
+      <div class="container-lg">
+        <div class="d-flex justify-content-between align-items-start">
+          <div class="d-flex flex-column">
+            <span class="text-uppercase fw-bold mb-2">Support</span>
+            <a href="" class="nav-link">Help</a>
+            <a href="" class="nav-link">Order </a>
+            <a href="" class="nav-link">Copyright</a>
+          </div>
+          <div class="d-flex flex-column">
+            <span class="text-uppercase fw-bold mb-2">Information</span>
+            <a href="" class="nav-link">Email</a>
+            <a href="" class="nav-link">Address</a>
+ 
+          </div>
+          <div>
+            <span class="text-uppercase fw-bold">Contact us</span>
+            <div class="mt-3">
+              <i class="fa-brands fa-facebook fs-1 mx-2"></i>
+              <i class="fa-brands fa-instagram fs-1 mx-2"></i>
+              <i class="fa-brands fa-tiktok fs-1 mx-2"></i>
+            </div>
+          </div>
+        </div>
+        <div class="text-secondary text-center">Copyright By Gojo Satoru</div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

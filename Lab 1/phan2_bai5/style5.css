@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background: #e8f7f9 url(images03/bg-body.png) no-repeat 50% 0;
+}
+.image{
+  width: 100%;
+}
+body {
+  font-family: 'Times New Roman', Times, serif;
+  width: 700px;
+  margin: auto;
+}
+header {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+header h1 {
+  position: absolute;
+  color: darkgrey;
+  font-style: italic;
+  padding: 25px;
+}
+.navbar{
+  background-image: url(images03/bg-menu.png);
+  background-size: cover;
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+.button {
+  height: 35px;
+  width: 75px;
+  margin-left: 20px;
+  background: none;
+  border: none;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+}
+.button:hover {
+  background-image: url(images03/bg-menu-hover.png);
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+.button span {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1em;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.button:hover span {
+  transform: translateY(-2px);
+  transition-duration: 0.5s;
+}
+main {
+  display: flex;
+  height: 70vh;
+  padding-right: 10px;
+  background-color: #fff;
+}
+.dropdown{
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  width: 30%;
+  height: 250px;
+  position: relative;
+  border-radius: 0 0 20px 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+.menu{
+  position: relative;
+  width: 100%;
+  height: 25px;
+  overflow: hidden;
+}
+.dropdown:hover {
+  background-color: rgb(233, 232, 232);
+}
+.dropdown a{
+  display: block;
+  display: none;
+  text-decoration: none;
+  color: black;
+  line-height: 2;
+  padding-left: 5px;
+  border-bottom: 1px solid rgb(207, 207, 207);
+  transition: background-color 0.3s ease-in-out;
+}
+.dropdown:hover a{
+  display: block;
+}
+.dropdown div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.dropdown .bg-feed {
+  position: absolute;
+  top: 0;
+  right: 24px;
+  z-index: 1;
+}
+.dropdown .botan {
+  position: absolute;
+  z-index: 2;
+  top: 0px;
+  right: 50px;
+}
+.dropdown .botan:hover {
+  top: -25px;
+  cursor: pointer;
+}
+.Kontentsu {
+  padding: 10px;
+  width: 70%;
+}
+.Kontentsu .suponsa {
+  width: 100%;
+}
+.Kontentsu h2 {
+  color: rgb(130, 248, 11);
+  font-weight: 200;
+  line-height: 1.5;
+}
+.Kontentsu .hidzuke {
+  color: rgb(145, 143, 143);
+  letter-spacing: 1.3px;
+}
+.Kontentsu p {
+  padding-bottom: 20px;
+}
+.Kontentsu .komento {
+  display: flex;
+  align-items: center;
+  color: rgb(7, 218, 218);
+  cursor: pointer;
+}
+footer {
+  background-image: url(images03/bg-footer.jpg);
+  height: 90px;
+  position: relative;
+  padding: 60px 0 0 25px;
+  color: white;
+}

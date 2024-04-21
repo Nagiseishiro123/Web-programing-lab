@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2{
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(173, 40, 40);
+  margin-bottom: 10px;
+}
+h1{
+  font-size: 2.8em;
+  text-shadow: 5px 3px rgb(51, 63, 228);
+}
+h2{
+  font-size: 2em;
+}
+.logo {
+  margin: 15px;
+  margin-bottom: -15px;
+  border: 7px solid red;
+  border-radius: 15px;
+  width: 400px;
+}
+main{
+  margin: 40px 40px 0 20px;
+}
+p{
+  padding-bottom: 20px;
+}
+.Nitsuite p::first-letter{
+  font-size: 50px;
+}
+.Nitsuite p span{
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 20px;
+}
+.Nitsuite p span:last-child{
+  font-style: italic;
+  font-weight: normal;
+}
+.juusho ul,li{
+  line-height: 2;
+}
+.red, .red a{
+  color: red;
+}
+.Shiti{
+  padding-bottom: 20px;
+}
+table,th,td{
+  font-size: 1em;
+  border: 1px solid rgb(190, 189, 189);
+  border-collapse: collapse;
+  text-align: center;
+  padding-top: 8px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+}
+.Sosharumedia{
+  padding-bottom: 200px;
+}
+.Sosharumedia a:first-of-type{
+  color: rgb(38, 158, 118);
+  font-weight: 850;
+  text-shadow: 2px 2px 4px #000;
+  text-decoration: none;
+}
+  
+  

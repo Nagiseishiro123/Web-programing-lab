@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manage cookie</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="..."
+      crossorigin="anonymous"
+    />
+    <style>
+      body{
+        background: url(cookie.jpg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container my-5 d-flex justify-content-center">
+    <div class="p-4 border rounded bg-white">
+      <form action="">
+        <label for="cname" class="form-label">Cookie name:</label>
+        <input type="text" name="cname" id="cname" class="form-control mb-3" />
+        
+        <label for="cvalue" class="form-label">Cookie value:</label>
+        <input type="text" name="cvalue" id="cvalue" class="form-control mb-3" />
+        
+        <label for="exdays" class="form-label">Expire days:</label>
+        <input type="number" name="exdays" id="exdays" class="form-control mb-3" />
+        
+        <button type="button" class="btn btn-primary" onclick="listAllCookies()">View all cookies</button>
+        <button type="button" class="btn btn-success" onclick="addCookie()">Add cookie</button>
+        <button type="button" class="btn btn-warning" onclick="editCookie()">Edit cookie</button>
+        <button type="button" class="btn btn-danger" onclick="deleteCookie()">Delete cookie</button>
+      </form>
+      <br>
+      <div class="pre" style="background-color: rgb(226, 215, 65); padding: 8px;"">
+      <pre id="cookiesContainer"></pre>
+      </div>
+    </div>
+  </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="..." crossorigin="anonymous"></script>
+  </body>
+</html>

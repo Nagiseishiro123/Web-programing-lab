@@ -1,0 +1,25 @@
+.nav-link.fw-bold{ 
+  color: #ffffff; 
+}
+.Logo{
+  filter: brightness(200%);
+}
+.Logo img{
+  width: 6rem;
+}   
+p{
+ text-align: justify;
+}
+li{
+  text-align: justify;
+}
+h1{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.banner, .gojo{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.3em;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
